@@ -8,7 +8,7 @@ pipeline {
 	}
 	stage('Validate') {
 	        steps {
-	                 Input('Do you want to proceed?')
+	                 echo 'We are validating examples'
 	              }
 	}
 	}
