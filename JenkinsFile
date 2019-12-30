@@ -7,5 +7,12 @@ pipeline {
 			
                 }
         }
+	
+	Stage ('Validate')
+	{
+	Steps {
+	Input('Do you want to proceed?')
+	}
+	}
 	}
 	}
