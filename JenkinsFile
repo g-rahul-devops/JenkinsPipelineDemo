@@ -1,12 +1,9 @@
-Pipeline
-{
-Agent any
-    Stages
-        { 
-          Stage('Compile')
-          {
-          Steps 
-          { Echo 'This is Compile stage'}
-          }
+pipeline {
+    agent any
+    stages {
+        stage('Compile') {
+                steps {
+                        echo 'Hi, this is Rahul and Pranjali'
+			
+                }
         }
-}
