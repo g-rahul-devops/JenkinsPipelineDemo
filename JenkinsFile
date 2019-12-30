@@ -1,0 +1,12 @@
+Pipeline
+{
+Agent any
+    Stages
+        { 
+          Stage('Compile')
+          {
+          Steps 
+          { Echo "This is Compile stage"}
+          }
+        }
+}
